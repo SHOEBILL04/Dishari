@@ -1,0 +1,82 @@
+# BCS Preliminary Examination Rules & Structure Configuration
+# Note: Never hardcode exam parameters in application code; always read from this config.
+
+default_rules:
+  total_questions: 200
+  total_marks: 200.0
+  marks_per_correct_answer: 1.0
+  negative_mark_per_incorrect_answer: 0.5
+  duration_minutes: 120
+  options_per_question: 4
+  question_language_normalization: "NFC"
+
+syllabus_versions:
+  - id: "bcs-35th-current"
+    name: "35th BCS to Present"
+    effective_from: "2014-01-01"
+    description: "Standard 200-mark preliminary syllabus introduced with the 35th BCS"
+    total_marks: 200.0
+    subject_marks:
+      - subject_code: "bangla"
+        name_en: "Bangla Language and Literature"
+        name_bn: "বাংলা ভাষা ও সাহিত্য"
+        marks: 35
+      - subject_code: "english"
+        name_en: "English Language and Literature"
+        name_bn: "ইংরেজি ভাষা ও সাহিত্য"
+        marks: 35
+      - subject_code: "bangladesh_affairs"
+        name_en: "Bangladesh Affairs"
+        name_bn: "বাংলাদেশ বিষয়াবলী"
+        marks: 30
+      - subject_code: "international_affairs"
+        name_en: "International Affairs"
+        name_bn: "আন্তর্জাতিক বিষয়াবলী"
+        marks: 20
+      - subject_code: "geography"
+        name_en: "Geography (Bangladesh & World), Environment and Disaster Management"
+        name_bn: "ভূগোল (বাংলাদেশ ও বিশ্ব), পরিবেশ ও দুর্যোগ ব্যবস্থাপনা"
+        marks: 10
+      - subject_code: "general_science"
+        name_en: "General Science"
+        name_bn: "সাধারণ বিজ্ঞান"
+        marks: 15
+      - subject_code: "computer_it"
+        name_en: "Computer and Information Technology"
+        name_bn: "কম্পিউটার ও তথ্যপ্রযুক্তি"
+        marks: 15
+      - subject_code: "math"
+        name_en: "Mathematical Reasoning"
+        name_bn: "গাণিতিক যুক্তি"
+        marks: 15
+      - subject_code: "mental_ability"
+        name_en: "Mental Ability"
+        name_bn: "মানসিক দক্ষতা"
+        marks: 15
+      - subject_code: "ethics"
+        name_en: "Ethics, Values and Good Governance"
+        name_bn: "নৈতিকতা, মূল্যবোধ ও সুশাসন"
+        marks: 10
+
+  - id: "bcs-pre-35th"
+    name: "10th to 34th BCS (Legacy)"
+    effective_from: "1989-01-01"
+    description: "Legacy 100-mark preliminary syllabus used up to the 34th BCS"
+    total_marks: 100.0
+    subject_marks:
+      - subject_code: "bangla"
+        name_en: "Bangla"
+        name_bn: "বাংলা"
+        marks: 20
+      - subject_code: "english"
+        name_en: "English"
+        name_bn: "ইংরেজি"
+        marks: 20
+      - subject_code: "general_knowledge"
+        name_en: "General Knowledge (Bangladesh & International)"
+        name_bn: "সাধারণ জ্ঞান (বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলী)"
+        marks: 40
+      - subject_code: "general_science_math"
+        name_en: "General Science and Mathematical Reasoning"
+        name_bn: "সাধারণ বিজ্ঞান ও গাণিতিক যুক্তি"
+        marks: 20

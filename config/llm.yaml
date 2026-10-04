@@ -1,0 +1,75 @@
+# LLM Provider Configuration for Dishari
+# Defines the provider fallback chain, rate limits, models, and caching.
+
+active_chain:
+  - gemini
+  - groq
+  - openrouter
+
+cache:
+  enabled: true
+  db_path: "data/llm_cache.sqlite"
+
+usage_log:
+  enabled: true
+  db_path: "data/llm_usage.sqlite"
+
+job_queue:
+  db_path: "data/llm_jobs.sqlite"
+
+providers:
+  gemini:
+    adapter: "gemini"
+    model: "gemini-2.5-flash"
+    api_key_env: "GEMINI_API_KEY"
+    base_url: "https://generativelanguage.googleapis.com/v1beta"
+    rate_limit:
+      requests_per_minute: 15
+      requests_per_day: 1500
+    cost:
+      input_cost_per_million: 0.075
+      output_cost_per_million: 0.30
+    max_retries_on_429: 3
+    backoff_initial_sec: 1.0
+
+  groq:
+    adapter: "groq"
+    model: "llama-3.3-70b-versatile"
+    api_key_env: "GROQ_API_KEY"
+    base_url: "https://api.groq.com/openai/v1"
+    rate_limit:
+      requests_per_minute: 30
+      requests_per_day: 14400
+    cost:
+      input_cost_per_million: 0.59
+      output_cost_per_million: 0.79
+    max_retries_on_429: 3
+    backoff_initial_sec: 1.0
+
+  openrouter:
+    adapter: "openrouter"
+    model: "google/gemini-2.5-flash"
+    api_key_env: "OPENROUTER_API_KEY"
+    base_url: "https://openrouter.ai/api/v1"
+    rate_limit:
+      requests_per_minute: 20
+      requests_per_day: 5000
+    cost:
+      input_cost_per_million: 0.10
+      output_cost_per_million: 0.40
+    max_retries_on_429: 2
+    backoff_initial_sec: 1.0
+
+  ollama:
+    adapter: "ollama"
+    model: "mistral:latest"
+    api_key_env: null
+    base_url: "http://localhost:11434"
+    rate_limit:
+      requests_per_minute: 60
+      requests_per_day: 100000
+    cost:
+      input_cost_per_million: 0.0
+      output_cost_per_million: 0.0
+    max_retries_on_429: 1
+    backoff_initial_sec: 0.5
