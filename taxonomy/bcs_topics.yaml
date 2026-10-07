@@ -1,0 +1,248 @@
+# BCS Examination Official Topic Taxonomy
+# Versioned by syllabus_version; drafted following BPSC official circular guidelines.
+
+syllabus_versions:
+  bcs-35th-current:
+    name: "35th BCS to Present"
+    effective_from: "2014-01-01"
+    total_marks: 200
+    subjects:
+      - slug: "bangla"
+        name_bn: "বাংলা ভাষা ও সাহিত্য"
+        name_en: "Bangla Language and Literature"
+        marks: 35
+        topics:
+          - id: "top_bn_lit_ancient"
+            name_bn: "প্রাচীন যুগ (চর্যাপদ)"
+            name_en: "Ancient Era (Charyapada)"
+            level: 1
+            keywords: ["চর্যাপদ", "হরপ্রসাদ শাস্ত্রী", "লুইপা", "কাহ্নপা", "বৌদ্ধ গান ও দোহা", "নেপাল রাজদরবার", "আবিষ্কার"]
+          - id: "top_bn_lit_medieval"
+            name_bn: "মধ্যযুগীয় সাহিত্য"
+            name_en: "Medieval Literature"
+            level: 1
+            keywords: ["শ্রীকৃষ্ণকীর্তন", "মঙ্গলকাব্য", "মনসামঙ্গল", "চণ্ডীমঙ্গল", "বৈষ্ণব পদাবলী", "আরাকান রাজসভা", "আলাওল", "পদ্মাবতী", "ভারতচন্দ্র"]
+          - id: "top_bn_lit_modern"
+            name_bn: "আধুনিক যুগ ও সাহিত্যিকবৃন্দ"
+            name_en: "Modern Era and Authors"
+            level: 1
+            keywords: ["ফোর্ট উইলিয়াম", "বঙ্কিমচন্দ্র", "মাইকেল মধুসূদন", "রবীন্দ্রনাথ ঠাকুর", "কাজী নজরুল ইসলাম", "জীবনানন্দ দাশ", "উপন্যাস", "নাটক", "কাব্যগ্রন্থ"]
+          - id: "top_bn_gram_phonetics"
+            name_bn: "ধ্বনি ও বর্ণ প্রকরণ"
+            name_en: "Phonetics and Letters"
+            level: 1
+            keywords: ["স্বরধ্বনি", "ব্যঞ্জনধ্বনি", "উচ্চারণ স্থান", "মহাপ্রাণ", "অল্পপ্রাণ", "ঘোষ", "অঘোষ", "যুক্তবর্ণ"]
+          - id: "top_bn_gram_sandhi"
+            name_bn: "সন্ধি"
+            name_en: "Sandhi (Euphonic Junction)"
+            level: 1
+            keywords: ["স্বরসন্ধি", "ব্যঞ্জনসন্ধি", "বিসর্গ সন্ধি", "নিপাতনে সিদ্ধ", "সন্ধি বিচ্ছেদ"]
+          - id: "top_bn_gram_samas"
+            name_bn: "সমাস"
+            name_en: "Samas (Compound Words)"
+            level: 1
+            keywords: ["দ্বন্দ্ব", "দ্বিগু", "তৎপুরুষ", "কর্মধারয়", "বহুব্রীহি", "অব্যয়ীভাব", "ব্যাসবাক্য", "সমস্যমান পদ"]
+          - id: "top_bn_gram_etymology"
+            name_bn: "শব্দ ও পদ প্রকরণ"
+            name_en: "Etymology and Parts of Speech"
+            level: 1
+            keywords: ["তৎসম", "তদ্ভব", "দেশি", "বিদেশি", "উপসর্গ", "প্রত্যয়", "বিশেষ্য", "বিশেষণ", "ক্রিয়া", "অনুসর্গ"]
+          - id: "top_bn_gram_correction"
+            name_bn: "বানান ও বাক্য শুদ্ধি, পরিভাষা"
+            name_en: "Spelling, Syntax and Terminology"
+            level: 1
+            keywords: ["ণ-ত্ব", "ষ-ত্ব বিধান", "শুদ্ধ বানান", "বাক্য রূপান্তর", "বাগধারা", "পরিভাষা"]
+
+      - slug: "english"
+        name_bn: "ইংরেজি ভাষা ও সাহিত্য"
+        name_en: "English Language and Literature"
+        marks: 35
+        topics:
+          - id: "top_en_parts_of_speech"
+            name_bn: "Parts of Speech & Syntax"
+            name_en: "Parts of Speech & Syntax"
+            level: 1
+            keywords: ["noun", "pronoun", "verb", "adjective", "adverb", "preposition", "conjunction", "subject-verb agreement", "tense"]
+          - id: "top_en_vocab_idioms"
+            name_bn: "Vocabulary, Synonyms & Idioms"
+            name_en: "Vocabulary, Synonyms & Idioms"
+            level: 1
+            keywords: ["synonym", "antonym", "idiom", "phrase", "proverb", "one-word substitution", "analogy", "spelling"]
+          - id: "top_en_clause_transformation"
+            name_bn: "Clauses, Voice & Narration"
+            name_en: "Clauses, Voice & Narration"
+            level: 1
+            keywords: ["clause", "phrase", "active voice", "passive voice", "direct narration", "indirect narration", "simple", "complex", "compound"]
+          - id: "top_en_lit_renaissance"
+            name_bn: "Elizabethan & Renaissance Literature"
+            name_en: "Elizabethan & Renaissance Literature"
+            level: 1
+            keywords: ["Shakespeare", "Hamlet", "Macbeth", "Othello", "Christopher Marlowe", "Edmund Spenser", "Francis Bacon", "Renaissance"]
+          - id: "top_en_lit_romantic_victorian"
+            name_bn: "Romantic & Victorian Periods"
+            name_en: "Romantic & Victorian Periods"
+            level: 1
+            keywords: ["Wordsworth", "Coleridge", "John Keats", "Shelley", "Lord Byron", "Jane Austen", "Charles Dickens", "Alfred Tennyson", "Robert Browning"]
+          - id: "top_en_lit_modern"
+            name_bn: "Modern & Post-Modern Literature"
+            name_en: "Modern & Post-Modern Literature"
+            level: 1
+            keywords: ["T.S. Eliot", "W.B. Yeats", "George Orwell", "G.B. Shaw", "Ernest Hemingway", "Virginia Woolf", "James Joyce"]
+
+      - slug: "bangladesh_affairs"
+        name_bn: "বাংলাদেশ বিষয়াবলী"
+        name_en: "Bangladesh Affairs"
+        marks: 30
+        topics:
+          - id: "top_bd_history_early"
+            name_bn: "প্রাচীন ও মধ্যযুগীয় বাংলা এবং ব্রিটিশ শাসন"
+            name_en: "Ancient, Medieval & British Era Bengal"
+            level: 1
+            keywords: ["মৌর্য", "গুপ্ত", "পাল", "সেন", "সুলতানি আমল", "মুঘল সুবাহ", "পলাশীর যুদ্ধ", "সিপাহী বিদ্রোহ", "বঙ্গভঙ্গ"]
+          - id: "top_bd_history_movement"
+            name_bn: "ভাষা আন্দোলন ও জাতীয়তাবাদী আন্দোলন (১৯৪৭-১৯৭০)"
+            name_en: "Language Movement to Mass Uprising (1947-1970)"
+            level: 1
+            keywords: ["১৯৪৭ দেশভাগ", "১৯৫২ ভাষা আন্দোলন", "যুক্তফ্রন্ট ১৯৫৪", "ছয় দফা ১৯৬৬", "আগরতলা মামলা", "১৯৬৯ গণঅভ্যুত্থান", "১৯৭০ নির্বাচন"]
+          - id: "top_bd_liberation_war"
+            name_bn: "১৯৭১ সালের মুক্তিযুদ্ধ ও স্বাধীনতা"
+            name_en: "Liberation War and Independence (1971)"
+            level: 1
+            keywords: ["৭ মার্চ ভাষণ", "অপারেশন সার্চলাইট", "২৫ মার্চ", "মুজিবনগর সরকার", "১৭ এপ্রিল", "১১টি সেক্টর", "বীরশ্রেষ্ঠ", "১৬ ডিসেম্বর বিজয়"]
+          - id: "top_bd_constitution"
+            name_bn: "বাংলাদেশের সংবিধান ও রাষ্ট্রব্যবস্থা"
+            name_en: "Bangladesh Constitution & State System"
+            level: 1
+            keywords: ["সংবিধান", "মূলনীতি", "মৌলিক অধিকার", "অনুচ্ছেদ", "সংশোধনী", "রাষ্ট্রপতি", "প্রধানমন্ত্রী", "জাতীয় সংসদ", "সুপ্রিম কোর্ট"]
+          - id: "top_bd_economy_resources"
+            name_bn: "বাংলাদেশের অর্থনীতি, কৃষি ও সম্পদ"
+            name_en: "Economy, Agriculture & Natural Resources"
+            level: 1
+            keywords: ["বাজেট", "জিডিপি", "রপ্তানি", "রেমিট্যান্স", "কৃষি", "খনিজ গ্যাস", "কয়লা", "মেগা প্রকল্প", "পদ্মা সেতু", "মেট্রোরেল"]
+
+      - slug: "international_affairs"
+        name_bn: "আন্তর্জাতিক বিষয়াবলী"
+        name_en: "International Affairs"
+        marks: 20
+        topics:
+          - id: "top_int_organizations"
+            name_bn: "আন্তর্জাতিক ও আঞ্চলিক সংস্থা"
+            name_en: "International & Regional Organizations"
+            level: 1
+            keywords: ["জাতিসংঘ", "নিরাপত্তা পরিষদ", "বিশ্বব্যাংক", "আইএমএফ", "সার্ক", "আসিয়ান", "ইইউ", "ন্যাটো", "ব্রিকস", "কপ সম্মেলন"]
+          - id: "top_int_geopolitics_security"
+            name_bn: "বৈশ্বিক রাজনীতি, যুদ্ধ ও চুক্তি"
+            name_en: "Global Politics, Treaties & Security"
+            level: 1
+            keywords: ["প্রথম বিশ্বযুদ্ধ", "দ্বিতীয় বিশ্বযুদ্ধ", "স্নায়ুযুদ্ধ", "পারমাণবিক চুক্তি", "মধ্যপ্রাচ্য সংকট", "ইউক্রেন যুদ্ধ", "প্রণালী", "সীমান্ত চুক্তি"]
+          - id: "top_int_geography_capitals"
+            name_bn: "বিশ্ব ভূগোল, রাজধানী ও মুদ্রা"
+            name_en: "World Geography, Capitals & Currencies"
+            level: 1
+            keywords: ["রাজধানী", "মুদ্রা", "পার্লামেন্ট", "প্রণালী", "মরুভূমি", "দ্বীপ", "সাগর", "আন্তর্জাতিক সীমারেখা"]
+
+      - slug: "geography"
+        name_bn: "ভূগোল, পরিবেশ ও দুর্যোগ ব্যবস্থাপনা"
+        name_en: "Geography, Environment & Disaster Management"
+        marks: 10
+        topics:
+          - id: "top_geo_bd_physical"
+            name_bn: "বাংলাদেশ ও বৈশ্বিক ভূ-প্রকৃতি ও জলবায়ু"
+            name_en: "Physical Geography & Climate"
+            level: 1
+            keywords: ["নদনদী", "পাহাড়", "উপকূল", "সুন্দরবন", "আবহাওয়া", "মৌসুমি বায়ু", "ভূমিকম্প", "প্লেট টেকটনিক্স"]
+          - id: "top_geo_environment_disaster"
+            name_bn: "পরিবেশ দূষণ ও দুর্যোগ ব্যবস্থাপনা"
+            name_en: "Environment & Disaster Management"
+            level: 1
+            keywords: ["গ্রিনহাউস গ্যাস", "বৈশ্বিক উষ্ণায়ন", "সাইক্লোন", "বন্যা", "ঘূর্ণিঝড়", "দুর্যোগ প্রস্তুতি", "রামসার সাইট"]
+
+      - slug: "general_science"
+        name_bn: "সাধারণ বিজ্ঞান"
+        name_en: "General Science"
+        marks: 15
+        topics:
+          - id: "top_sci_physics"
+            name_bn: "পদার্থবিজ্ঞান"
+            name_en: "Physics"
+            level: 1
+            keywords: ["গতি", "বল", "কাজ", "শক্তি", "আলো", "প্রতিসরণ", "লেন্স", "শব্দ", "বিদ্যুৎ", "চৌম্বকত্ব", "পরমাণু"]
+          - id: "top_sci_chemistry"
+            name_bn: "রসায়ন বিজ্ঞান"
+            name_en: "Chemistry"
+            level: 1
+            keywords: ["অম্ল", "ক্ষার", "লবণ", "পিএইচ", "ধাতু", "অধাতু", "জারণ", "বিজারণ", "বায়ুমণ্ডলের গ্যাস", "রাসায়নিক বিক্রিয়া"]
+          - id: "top_sci_biology_health"
+            name_bn: "জীববিজ্ঞান, মানবদেহ ও পুষ্টি"
+            name_en: "Biology, Human Anatomy & Health"
+            level: 1
+            keywords: ["কোষ", "ডিএনএ", "উদ্ভিদ সালোকসংশ্লেষণ", "রক্তের গ্রুপ", "হৃদপিণ্ড", "ভিটামিন", "রোগজীবাণু", "ভ্যাকসিন"]
+
+      - slug: "computer_it"
+        name_bn: "কম্পিউটার ও তথ্যপ্রযুক্তি"
+        name_en: "Computer and Information Technology"
+        marks: 15
+        topics:
+          - id: "top_cs_hardware_architecture"
+            name_bn: "হার্ডওয়্যার ও কম্পিউটার সংগঠন"
+            name_en: "Computer Hardware & Architecture"
+            level: 1
+            keywords: ["সিপিইউ", "র‍্যাম", "রম", "ইনপুট ডিভাইস", "আউটপুট ডিভাইস", "মেমোরি বাস", "মাদারবোর্ড", "বাইনারি সংখ্যা"]
+          - id: "top_cs_software_database"
+            name_bn: "সফটওয়্যার ও ডেটাবেজ"
+            name_en: "Software & Database Systems"
+            level: 1
+            keywords: ["অপারেটিং সিস্টেম", "উইন্ডোজ", "লিনাক্স", "প্রোগ্রামিং ভাষা", "এসকিউএল", "ডেটাবেজ", "কম্পাইলার"]
+          - id: "top_cs_network_internet_cyber"
+            name_bn: "নেটওয়ার্ক, ইন্টারনেট ও সাইবার নিরাপত্তা"
+            name_en: "Networking, Internet & Cybersecurity"
+            level: 1
+            keywords: ["আইপি অ্যাড্রেস", "টিসিপি/আইপি", "ল্যান", "ওয়ান", "রাউটার", "ফায়ারওয়াল", "ম্যালওয়্যার", "এনক্রিপশন", "ক্লাউড কম্পিউটিং"]
+
+      - slug: "math"
+        name_bn: "গাণিতিক যুক্তি"
+        name_en: "Mathematical Reasoning"
+        marks: 15
+        topics:
+          - id: "top_math_arithmetic"
+            name_bn: "পাটিগণিত ও বাস্তব সংখ্যা"
+            name_en: "Arithmetic & Real Numbers"
+            level: 1
+            keywords: ["বাস্তব সংখ্যা", "ল.সা.গু", "গ.সা.গু", "শতকরা", "লাভ-ক্ষতি", "সুদকষা", "অনুপাত", "ঐকিক নিয়ম"]
+          - id: "top_math_algebra"
+            name_bn: "বীজগণিত, সূচক ও লগারিদম"
+            name_en: "Algebra, Indices & Logarithms"
+            level: 1
+            keywords: ["উৎপাদক", "মান নির্ণয়", "দ্বিঘাত সমীকরণ", "সূচক", "লগারিদম", "সমান্তর ধারা", "গুণোত্তর ধারা"]
+          - id: "top_math_geometry"
+            name_bn: "জ্যামিতি, পরিমিতি ও সেট"
+            name_en: "Geometry, Mensuration & Sets"
+            level: 1
+            keywords: ["ত্রিভুজ", "বৃত্ত", "পিথাগোরাস", "ক্ষেত্রফল", "আয়তন", "সেট", "ভেনচিত্র", "বিন্যাস-সমাবেশ", "সম্ভাব্যতা"]
+
+      - slug: "mental_ability"
+        name_bn: "মানসিক দক্ষতা"
+        name_en: "Mental Ability"
+        marks: 15
+        topics:
+          - id: "top_mental_verbal_relation"
+            name_bn: "ভাষাগত ও সম্পর্কযুক্ত যুক্তি"
+            name_en: "Verbal & Relational Reasoning"
+            level: 1
+            keywords: ["রক্তের সম্পর্ক", "সাদৃশ্য", "বিপরীতার্থক সম্পর্ক", "দিক নির্ণয়", "ঘড়ির কাঁটা", "ক্যালেন্ডার ও দিন গণনা"]
+          - id: "top_mental_numerical_spatial"
+            name_bn: "সাংখ্যিক ও স্থানিক যুক্তি"
+            name_en: "Numerical & Spatial Reasoning"
+            level: 1
+            keywords: ["সংখ্যা সিরিজ", "অনুপস্থিত সংখ্যা", "আয়না প্রতিফলন", "জ্যামিতিক প্যাটার্ন", "ভারসাম্য", "কোডিং-ডিকোডিং"]
+
+      - slug: "ethics"
+        name_bn: "নৈতিকতা, মূল্যবোধ ও সুশাসন"
+        name_en: "Ethics, Values and Good Governance"
+        marks: 10
+        topics:
+          - id: "top_ethics_values_governance"
+            name_bn: "মূল্যবোধ, সুশাসন ও দুর্নীতি প্রতিরোধ"
+            name_en: "Values, Good Governance & Anti-Corruption"
+            level: 1
+            keywords: ["নৈতিকতা", "মূল্যবোধ", "সুশাসনের উপাদান", "জবাবদিহিতা", "স্বচ্ছতা", "আইনের শাসন", "দুদক", "মানবাধিকার", "নাগরিক দায়িত্ব"]
